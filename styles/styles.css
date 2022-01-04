@@ -1,0 +1,75 @@
+*,*:after,
+*::before{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+html{
+  font-size:16px;
+}
+
+body{
+ 
+background-color: gray;
+ display:flex;
+ flex-direction:column;
+ align-items:center;
+ justify-content:center;
+ min-height:100vh;
+
+ padding:1.5rem;
+ color:whitesmoke;
+}
+.container{
+  background-color: whitesmoke;
+  padding:2rem;
+  border-radius: 10px;
+}
+.desc{
+  padding:1.2rem;
+  font-size: 1.3rem;
+}
+.currency select{
+  padding:1rem;
+  margin:1rem;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  appearance:none;
+  border:1px solid black;
+  font-size:1.2rem;
+}
+
+.currency input{
+
+  font-size: 1rem;
+  text-align: end;
+  padding:0.4rem;
+
+}
+
+#currency-one,
+#currency-two{
+  background-color: rgb(114, 54, 64);
+  color:white;
+  border:2px  rgb(133, 59, 71);
+  border-radius:5px;
+  width:4.5rem;
+  height:3.2rem;
+  text-align:center;
+}
+
+select option{
+  background-color:white ;
+  color:green;
+}
+.exchange{
+  text-align:center;
+  padding:1rem;
+}
+
+#swap{
+  background-color: rgb(154, 173, 173);
+  padding:0.3rem;
+  border:2px rgb(154, 173, 173) ;
+  font-size:1.2rem; 
+}

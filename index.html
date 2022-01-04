@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./styles/normalize.css">
+  <link rel="stylesheet" href="./styles/styles.css">
+  <title>Currency EXchanger</title>
+</head>
+<body>
+  <h1>Currency Exchanger</h1>
+  <p class="desc">choose the currency and the amount to get exchange</p>
+<div class="container">
+<div class="currency">
+<select  id="currency-one">
+<option value="INR">INR</option>
+<option value="USD" selected>USA</option>
+<option value="AED">AED</option>
+         <option value="ARS">ARS</option>
+          <option value="AUD">AUD</option>
+          <option value="BGN">BGN</option>
+          <option value="BRL">BRL</option>
+          <option value="BSD">BSD</option>
+          <option value="CAD">CAD</option>
+          <option value="CHF">CHF</option>
+          <option value="CLP">CLP</option>
+          <option value="CNY">CNY</option>
+          <option value="COP">COP</option>
+          <option value="CZK">CZK</option>
+          <option value="DKK">DKK</option>
+</select>
+
+<input type="number" id="amount-one" placeholder="0"value="1"/>
+
+<br/>
+<div class="exchange">
+<button type='click' id='swap'>Exchange</button> 
+</div>
+
+<div class="curerency-two">
+  <select  id="currency-two">
+  <option value="INR" >INR</option>
+  <option value="USD">USA</option>
+  <option value="AED">AED</option>
+          <option value="ARS">ARS</option>
+          <option value="AUD">AUD</option>
+          <option value="BGN">BGN</option>
+          <option value="BRL">BRL</option>
+          <option value="BSD">BSD</option>
+          <option value="CAD">CAD</option>
+          <option value="CHF">CHF</option>
+          <option value="CLP">CLP</option>
+          <option value="CNY">CNY</option>
+          <option value="COP">COP</option>
+          <option value="CZK">CZK</option>
+          <option value="DKK">DKK</option>
+  </select>
+  
+  <input type="number"id="amount-two" placeholder="0" value="0"/>
+  
+
+</div>
+
+
+
+
+
+</div>
+</div>
+<script src="./script.js"></script>
+</body>
+</html>
